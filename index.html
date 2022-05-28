@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+
+    <title>Рукописный Текст Онлайн (2022)</title>
+
+    <meta name="keywords"
+          content="подделать почерк онлайн, рукописный текст, генератор конспектов, FakeText, fake text, фейк текст, свой шрифт на фото, замена почерка от руки">
+
+    <meta name="description"
+          content="Сервис для генерации реалистичных рукописных конспектов онлайн.">
+
+
+
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DS7KE4W6VJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DS7KE4W6VJ');
+</script>
+</head>
+<body>
+
+<noscript>
+    <link rel="stylesheet" href="css/no-script.css">
+    <div class="noscript-popup">
+        <p>Пожалуйста, включите JavaScript</p>
+    </div>
+</noscript>
+
+<header id="header">
+    <div class="header">
+        <div class="logo">
+            <h1>FakeText</h1>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main__body">
+        <div class="container">
+
+            <div class="input-block">
+                <nav>
+                    <ul class="input-block__settings">
+                        <li id="settings">
+
+                            <img
+                                    src="svg/gear.svg"
+                                    alt="Настройки"
+                                    height="30" width="30"/>
+                            <p>Настройки</p>
+
+                        </li>
+                        <li id="presets">
+
+                            <img
+                                    src="svg/presets.svg"
+                                    alt="Пресеты"
+                                    height="30" width="30"/>
+                            <p>Пресеты</p>
+
+                        </li>
+                        <li id="download">
+
+                            <img
+                                    src="svg/download.svg"
+                                    alt="Скачать"
+                                    height="30" width="30"/>
+                            <p>Скачать</p>
+
+                        </li>
+                    </ul>
+                </nav>
+                <div class="textarea">
+
+
+                    <label>
+<textarea placeholder="Вставьте текст">     Двадцать второе декабря
+              Диктант
+
+  Чисто выметенная и ещё сырая от недавно стаявшего снега улица была пустынна, но красива выдержанной немного тяжёлой красотой. Большие белые дома с лепными украшениями по карнизам и в простенках между окнами, окрашенные в тонко-розоватый оттенок весенними лучами заходящего солнца, смотрели на свет божий сосредоточенно и важно. Стаявший снег смыл с них пыль, и они стояли почти вплотную друг к другу такими чистыми, свежими, сытыми. И небо сияло над ними так же солидно, светло и довольно.
+  Павел шёл и, чувствуя себя в полной гармонии с окружающим, лениво думал о том, как хорошо можно жить, если не требовать от жизни многого, и как самонадеянны и глупы те люди, которые, обладая грошами, требуют себе от жизни на рубли.
+  Думая так, он не заметил, как вышел на набережную улицы. Перед ним внизу стояло целое море воды, холодно блестевшее в лучах солнца, далеко на горизонте медленно опускавшегося в него. Река, как и отражённое в ней небо, была торжественно покойна. Ни волн, ни частой сети ряби не видно было на её полированно-холодной поверхности. Широко размахнувшись, она, точно утомлённая этим размахом, спокойно уснула. А на ней томно таяла пурпурно-золотая бархатная полоса лучей заката. Далеко, уже окутанная сизой дымкой вечера, виднелась узкая лента земли, отделяя воду от неба, безоблачного и пустынного, как и накрытая им река. Хорошо бы было плыть свободной птицей между ними, мощно рассекая крылом синий свежий воздух!</textarea>
+                    </label>
+
+                    <div class="textarea__resizer">
+                        <div class="marker-resizer">Развернуть</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slider-block">
+                <div class="menu-block" style="display: none">
+
+                    <div class="menu-block__slider">
+
+                        <div class="slider__preview">
+                            <button class="slider-preview-button slider-preview-button_selected">1</button>
+                            <button class="slider-preview-button">2</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slick-content">
+                    <img src="img/demo/1.jpg" alt="Картинка с рукописным текстом" height="1280" width="960">
+                    <img src="img/demo/2.jpg" alt="Картинка с рукописным текстом" height="1280" width="960">
+                    <img src="img/demo/3.jpg" alt="Картинка с рукописным текстом" height="1280" width="960">
+          
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<div id="presets-popup" class="settings-popup popup">
+
+    <div class="popup__body">
+        <div class="popup__content">
+
+            <div class="popup__title">
+                <h2>Пресеты</h2>
+                <button class="popup__close"></button>
+            </div>
+
+            <div class="popup__settings">
+
+                <div class="presets-grid">
+                    <div id="pre1" class="preset-preview preset-preview_selected">
+                        <p class="presets-name">Пресет 1</p>
+                        <img class="preset-preview__demo" src="img/demo/1.jpg" alt="Пресет 1">
+                    </div>
+
+                    <div id="pre2" class="preset-preview">
+                        <p class="presets-name">Пресет 2</p>
+                        <img class="preset-preview__demo" src="img/2.jpg" alt="Пресет 2">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="download-popup" class="settings-popup popup">
+
+    <div class="popup__body">
+        <div class="popup__content">
+
+            <div class="popup__title">
+                <h2>Скачать</h2>
+                <button class="popup__close"></button>
+            </div>
+
+            <div class="popup__settings">
+
+                <div class="popup__download">
+                    <div class="popup__row">
+                        <button id="download-zip">Архивом (.zip)</button>
+                        <button id="download-each">По отдельности<br>(нужно разрешение)</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="settings-popup" class="settings-popup popup">
+
+    <div class="popup__body">
+        <div class="popup__content">
+            <div class="popup__title">
+                <h2>Настройки</h2>
+                <button class="popup__close"></button>
+            </div>
+
+            <div class="popup__settings">
+
+                <div class="text-color">
+                    <p>Цвет текста</p>
+                    <div class="color-choose list" tabindex="0">
+                        <p>Чёрный</p>
+                        <span class="color"></span>
+                    </div>
+
+                </div>
+
+                <div class="font-size">
+                    <p>Размер текста</p>
+                    <label for="font-size"></label><input type="range" min="1" max="4" id="font-size" value="2">
+                </div>
+
+                <div class="font">
+                    <p>Выбрать шрифт</p>
+                    <div class="font-choose list">
+                        <p class="Tibalt">Привет, мир</p>
+                    </div>
+
+                </div>
+
+                <div class="seep">
+                    <p><label>Эффект просачивания<input id="seep" type="checkbox"></label></p>
+                </div>
+
+                <div class="space">
+                    <p><label class="space__content">Разные отступы между словами<input id="rand-space" type="checkbox" checked></label>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="font-popup list-popup">
+    <div class="font-popup__body list-popup-content">
+        <div>
+            <input type="radio" checked name="font" id="Tibalt">
+            <label class="radio-label Tibalt" for="Tibalt"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Pag">
+            <label class="radio-label Pag" for="Pag"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Abram">
+            <label class="radio-label Abram" for="Abram"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Benvolio">
+            <label class="radio-label Benvolio" for="Benvolio"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Capuletty">
+            <label class="radio-label Capuletty" for="Capuletty"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Eskal">
+            <label class="radio-label Eskal" for="Eskal"><span>Привет, мир</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="font" id="Lorenco">
+            <label class="radio-label Lorenco" for="Lorenco"><span>Привет, мир</span></label>
+        </div>
+
+        <!--<div>
+            <input type="radio" name="font" id="Montekky">
+            <label class="radio-label Montekky" for="Montekky"><span>Привет, мир</span></label>
+        </div>-->
+
+    </div>
+</div>
+
+<div class="color-popup list-popup">
+    <div class="color-popup__body list-popup-content">
+        <div>
+            <input type="radio" checked name="color" id="black">
+            <label class="radio-label" for="black"><span class="black">Чёрный</span></label>
+        </div>
+
+        <div>
+            <input type="radio" name="color" id="blue">
+            <label class="radio-label" for="blue"><span class="blue">Синий</span></label>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2021-2022 <span style="user-select: text;">fake-text.blogspot.com</span></p>
+</footer>
+<script src="js/libs/jquery-3.5.1.js"></script>
+<script src="js/libs/slick.js"></script>
+
+<script src="js/libs/fabric.js"></script>
+<script src="js/libs/jquery.hypher.js"></script>
+<script src="js/libs/en-us.js"></script>
+<script src="js/libs/FileSaver.js"></script>
+<script src="js/libs/jszip.js"></script>
+<script src="js/libs/font-face-observer.js"></script>
+
+
+<script src="js/main.js"></script>
+
+
+<script>
+
+    let GLOBAL = 0;
+    let IMAGE = [];
+
+    $(document).ready(() => {
+
+        $('.slick-content').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 0,
+            swipe: false,
+            waitForAnimate: false,
+            infinite: false,
+            dots: true,
+            lazyLoad: 'ondemand',
+        });
+
+        $.fn.hyphenates = function () {
+            let e = "[абвгдеёжзийклмнопрстуфхцчшщъыьэюя]";
+            let t = "[аеёиоуыэюя]";
+            let n = "[бвгджзклмнпрстфхцчшщ]";
+            let r = "[йъь]";
+            let i = "­";
+            let s = new RegExp("(" + r + ")(" + e + e + ")", "ig");
+            let o = new RegExp("(" + t + ")(" + t + e + ")", "ig");
+            let u = new RegExp("(" + t + n + ")(" + n + t + ")", "ig");
+            let a = new RegExp("(" + n + t + ")(" + n + t + ")", "ig");
+            let f = new RegExp("(" + t + n + ")(" + n + n + t + ")", "ig");
+            let l = new RegExp("(" + t + n + n + ")(" + n + n + t + ")", "ig");
+            this.each(function () {
+                let e = $(this).html();
+                e = e.replace(s, "$1" + i + "$2");
+                e = e.replace(o, "$1" + i + "$2");
+                e = e.replace(u, "$1" + i + "$2");
+                e = e.replace(a, "$1" + i + "$2");
+                e = e.replace(f, "$1" + i + "$2");
+                e = e.replace(l, "$1" + i + "$2");
+                $(this).html(e)
+            })
+        }
+
+    });
+
+
+</script>
+
+
+<script>
+     //  let text = document.querySelector('.srchInput').value;
+   window.parent.postMessage(123, "http://fake-text.blogspot.com/"); 
+</script>
+
+</body>
+
+</html>
