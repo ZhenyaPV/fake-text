@@ -10,12 +10,12 @@
 img {
     max-width: 100%;
     height: auto;
-    user-select: none
+    
 }
 
 body {
     background-color: #e2e2e2;
-    user-select: none;
+    
     font-family: Arial, serif;
     min-height: 100vh;
     display: flex;
@@ -717,7 +717,7 @@ li {
 
 code {
     background: #f1f1f1;
-    user-select: text;
+    
     width: 100%;
     display: block;
     text-align: center;
@@ -828,7 +828,7 @@ img {
 }
 
 .slick-arrow {
-    user-select: none;
+   
     border: none;
     outline: 0;
     -webkit-tap-highlight-color: transparent
